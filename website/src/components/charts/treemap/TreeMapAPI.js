@@ -13,6 +13,7 @@ import propsMapper from './propsMapper'
 
 export default class TreeMapAPI extends Component {
     render() {
+        console.log(this.props)
         return (
             <APIClient
                 componentName="TreeMap"
